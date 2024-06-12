@@ -1,0 +1,24 @@
+[2.972s] Invoking command in '/home/ivan/ros_rover/src/encoder_publisher': PYTHONPATH=/home/ivan/ros_rover/build/encoder_publisher/prefix_override:/home/ivan/ros_rover/install/encoder_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_publisher build --build-base /home/ivan/ros_rover/build/encoder_publisher/build install --record /home/ivan/ros_rover/build/encoder_publisher/install.log --single-version-externally-managed install_data
+[4.174s] running egg_info
+[4.177s] writing ../../build/encoder_publisher/encoder_publisher.egg-info/PKG-INFO
+[4.178s] writing dependency_links to ../../build/encoder_publisher/encoder_publisher.egg-info/dependency_links.txt
+[4.179s] writing entry points to ../../build/encoder_publisher/encoder_publisher.egg-info/entry_points.txt
+[4.180s] writing requirements to ../../build/encoder_publisher/encoder_publisher.egg-info/requires.txt
+[4.181s] writing top-level names to ../../build/encoder_publisher/encoder_publisher.egg-info/top_level.txt
+[4.190s] reading manifest file '../../build/encoder_publisher/encoder_publisher.egg-info/SOURCES.txt'
+[4.194s] writing manifest file '../../build/encoder_publisher/encoder_publisher.egg-info/SOURCES.txt'
+[4.195s] running build
+[4.196s] running build_py
+[4.197s] copying encoder_publisher/encoder_publisher.py -> /home/ivan/ros_rover/build/encoder_publisher/build/lib/encoder_publisher
+[4.198s] running install
+[4.199s] running install_lib
+[4.203s] copying /home/ivan/ros_rover/build/encoder_publisher/build/lib/encoder_publisher/encoder_publisher.py -> /home/ivan/ros_rover/install/encoder_publisher/lib/python3.10/site-packages/encoder_publisher
+[4.206s] byte-compiling /home/ivan/ros_rover/install/encoder_publisher/lib/python3.10/site-packages/encoder_publisher/encoder_publisher.py to encoder_publisher.cpython-310.pyc
+[4.209s] running install_data
+[4.210s] running install_egg_info
+[4.218s] removing '/home/ivan/ros_rover/install/encoder_publisher/lib/python3.10/site-packages/encoder_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[4.219s] Copying ../../build/encoder_publisher/encoder_publisher.egg-info to /home/ivan/ros_rover/install/encoder_publisher/lib/python3.10/site-packages/encoder_publisher-0.0.0-py3.10.egg-info
+[4.225s] running install_scripts
+[4.315s] Installing encoder_publisher script to /home/ivan/ros_rover/install/encoder_publisher/lib/encoder_publisher
+[4.317s] writing list of installed files to '/home/ivan/ros_rover/build/encoder_publisher/install.log'
+[4.439s] Invoked command in '/home/ivan/ros_rover/src/encoder_publisher' returned '0': PYTHONPATH=/home/ivan/ros_rover/build/encoder_publisher/prefix_override:/home/ivan/ros_rover/install/encoder_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/encoder_publisher build --build-base /home/ivan/ros_rover/build/encoder_publisher/build install --record /home/ivan/ros_rover/build/encoder_publisher/install.log --single-version-externally-managed install_data

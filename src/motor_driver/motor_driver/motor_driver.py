@@ -11,7 +11,7 @@ class MotorDriver(Node):
         super().__init__('motor_driver')
 
         # Motor control GPIO pins
-        self.motor1_pins = (6, 13)   # IN1, IN2 for Motor 1
+        self.motor1_pins = (16, 13)   # IN1, IN2 for Motor 1
         self.motor2_pins = (19, 26)  # IN1, IN2 for Motor 2
 
         # Setup GPIO

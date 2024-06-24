@@ -8,7 +8,6 @@ setup.py
 ../../build/motor_driver/motor_driver.egg-info/requires.txt
 ../../build/motor_driver/motor_driver.egg-info/top_level.txt
 ../../build/motor_driver/motor_driver.egg-info/zip-safe
-launch/robot_launch.py
 motor_driver/__init__.py
 motor_driver/motor_driver.py
 resource/motor_driver

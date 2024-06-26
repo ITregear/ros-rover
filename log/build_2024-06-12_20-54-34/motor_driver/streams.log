@@ -1,0 +1,37 @@
+[4.650s] Invoking command in '/home/ivan/ros_rover/src/motor_driver': PYTHONPATH=/home/ivan/ros_rover/build/motor_driver/prefix_override:/home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/ivan/ros_rover/build/motor_driver/build install --record /home/ivan/ros_rover/build/motor_driver/install.log --single-version-externally-managed install_data
+[5.977s] running egg_info
+[5.991s] creating ../../build/motor_driver/motor_driver.egg-info
+[5.992s] writing ../../build/motor_driver/motor_driver.egg-info/PKG-INFO
+[5.992s] writing dependency_links to ../../build/motor_driver/motor_driver.egg-info/dependency_links.txt
+[5.994s] writing entry points to ../../build/motor_driver/motor_driver.egg-info/entry_points.txt
+[5.994s] writing requirements to ../../build/motor_driver/motor_driver.egg-info/requires.txt
+[5.995s] writing top-level names to ../../build/motor_driver/motor_driver.egg-info/top_level.txt
+[5.996s] writing manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[5.997s] reading manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[6.000s] writing manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[6.002s] running build
+[6.002s] running build_py
+[6.007s] creating /home/ivan/ros_rover/build/motor_driver/build
+[6.007s] creating /home/ivan/ros_rover/build/motor_driver/build/lib
+[6.008s] creating /home/ivan/ros_rover/build/motor_driver/build/lib/motor_driver
+[6.008s] copying motor_driver/__init__.py -> /home/ivan/ros_rover/build/motor_driver/build/lib/motor_driver
+[6.009s] copying motor_driver/motor_driver.py -> /home/ivan/ros_rover/build/motor_driver/build/lib/motor_driver
+[6.013s] running install
+[6.014s] running install_lib
+[6.015s] creating /home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[6.015s] copying /home/ivan/ros_rover/build/motor_driver/build/lib/motor_driver/__init__.py -> /home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[6.019s] copying /home/ivan/ros_rover/build/motor_driver/build/lib/motor_driver/motor_driver.py -> /home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages/motor_driver
+[6.023s] byte-compiling /home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages/motor_driver/__init__.py to __init__.cpython-310.pyc
+[6.024s] byte-compiling /home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages/motor_driver/motor_driver.py to motor_driver.cpython-310.pyc
+[6.024s] running install_data
+[6.025s] creating /home/ivan/ros_rover/install/motor_driver/share/ament_index
+[6.026s] creating /home/ivan/ros_rover/install/motor_driver/share/ament_index/resource_index
+[6.026s] creating /home/ivan/ros_rover/install/motor_driver/share/ament_index/resource_index/packages
+[6.027s] copying resource/motor_driver -> /home/ivan/ros_rover/install/motor_driver/share/ament_index/resource_index/packages
+[6.028s] copying package.xml -> /home/ivan/ros_rover/install/motor_driver/share/motor_driver
+[6.029s] running install_egg_info
+[6.033s] Copying ../../build/motor_driver/motor_driver.egg-info to /home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.0.0-py3.10.egg-info
+[6.042s] running install_scripts
+[6.145s] Installing motor_driver script to /home/ivan/ros_rover/install/motor_driver/lib/motor_driver
+[6.149s] writing list of installed files to '/home/ivan/ros_rover/build/motor_driver/install.log'
+[6.387s] Invoked command in '/home/ivan/ros_rover/src/motor_driver' returned '0': PYTHONPATH=/home/ivan/ros_rover/build/motor_driver/prefix_override:/home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/ivan/ros_rover/build/motor_driver/build install --record /home/ivan/ros_rover/build/motor_driver/install.log --single-version-externally-managed install_data

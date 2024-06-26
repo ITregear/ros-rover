@@ -1,0 +1,23 @@
+[4.560s] Invoking command in '/home/ivan/ros_rover/src/motor_driver': PYTHONPATH=/home/ivan/ros_rover/build/motor_driver/prefix_override:/home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/ivan/ros_rover/build/motor_driver/build install --record /home/ivan/ros_rover/build/motor_driver/install.log --single-version-externally-managed install_data
+[5.893s] running egg_info
+[5.896s] writing ../../build/motor_driver/motor_driver.egg-info/PKG-INFO
+[5.899s] writing dependency_links to ../../build/motor_driver/motor_driver.egg-info/dependency_links.txt
+[5.900s] writing entry points to ../../build/motor_driver/motor_driver.egg-info/entry_points.txt
+[5.903s] writing requirements to ../../build/motor_driver/motor_driver.egg-info/requires.txt
+[5.903s] writing top-level names to ../../build/motor_driver/motor_driver.egg-info/top_level.txt
+[5.911s] reading manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[5.918s] writing manifest file '../../build/motor_driver/motor_driver.egg-info/SOURCES.txt'
+[5.921s] running build
+[5.924s] running build_py
+[5.926s] running install
+[5.929s] running install_lib
+[5.931s] running install_data
+[5.934s] creating /home/ivan/ros_rover/install/motor_driver/share/motor_driver/launch
+[5.937s] copying launch/robot_launch.py -> /home/ivan/ros_rover/install/motor_driver/share/motor_driver/launch
+[5.940s] running install_egg_info
+[5.942s] removing '/home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.0.0-py3.10.egg-info' (and everything under it)
+[5.945s] Copying ../../build/motor_driver/motor_driver.egg-info to /home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages/motor_driver-0.0.0-py3.10.egg-info
+[5.956s] running install_scripts
+[6.050s] Installing motor_driver script to /home/ivan/ros_rover/install/motor_driver/lib/motor_driver
+[6.052s] writing list of installed files to '/home/ivan/ros_rover/build/motor_driver/install.log'
+[6.214s] Invoked command in '/home/ivan/ros_rover/src/motor_driver' returned '0': PYTHONPATH=/home/ivan/ros_rover/build/motor_driver/prefix_override:/home/ivan/ros_rover/install/motor_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/motor_driver build --build-base /home/ivan/ros_rover/build/motor_driver/build install --record /home/ivan/ros_rover/build/motor_driver/install.log --single-version-externally-managed install_data

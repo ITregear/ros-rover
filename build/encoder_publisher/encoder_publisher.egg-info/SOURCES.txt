@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/encoder_publisher/encoder_publisher.egg-info/PKG-INFO
+../../build/encoder_publisher/encoder_publisher.egg-info/SOURCES.txt
+../../build/encoder_publisher/encoder_publisher.egg-info/dependency_links.txt
+../../build/encoder_publisher/encoder_publisher.egg-info/entry_points.txt
+../../build/encoder_publisher/encoder_publisher.egg-info/requires.txt
+../../build/encoder_publisher/encoder_publisher.egg-info/top_level.txt
+../../build/encoder_publisher/encoder_publisher.egg-info/zip-safe
+encoder_publisher/__init__.py
+encoder_publisher/encoder_publisher.py
+resource/encoder_publisher
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

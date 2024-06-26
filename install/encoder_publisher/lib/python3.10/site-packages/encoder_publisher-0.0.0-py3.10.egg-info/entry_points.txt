@@ -1,0 +1,3 @@
+[console_scripts]
+encoder_publisher = encoder_publisher.encoder_publisher:main
+

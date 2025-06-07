@@ -1,0 +1,12 @@
+# ROS build artifacts
+ros_ws/build/
+ros_ws/install/
+ros_ws/log/
+
+# Python cache
+*.pyc
+__pycache__/
+
+# direnv/envrc
+.envrc
+EOF

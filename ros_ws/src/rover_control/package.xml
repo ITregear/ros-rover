@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>foxglove_bridge_launch</name>
+  <name>rover_control</name>
   <version>0.0.0</version>
-  <description>Launch files for Foxglove Bridge integration with ROS2 rover</description>
+  <description>ROS2 package for controlling a differential drive rover with motor drivers and encoders</description>
   <maintainer email="ivantregear@gmail.com">ivan</maintainer>
-  <license>Apache License 2.0</license>
+  <license>MIT</license>
 
-  <buildtool_depend>ament_cmake</buildtool_depend>
-  <buildtool_depend>ament_cmake_python</buildtool_depend>
-
-  <depend>foxglove_bridge</depend>
-  <depend>launch_ros</depend>
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>python3-numpy</depend>
   <depend>launch</depend>
+  <depend>launch_ros</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>

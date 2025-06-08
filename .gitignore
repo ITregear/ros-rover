@@ -1,12 +1,16 @@
-# ROS build artifacts
-ros_ws/build/
-ros_ws/install/
-ros_ws/log/
-
-# Python cache
 *.pyc
-__pycache__/
+*.iml
+*.swp
+.project
+.pydevproject
+.DS_Store
+.idea
 
-# direnv/envrc
-.envrc
-EOF
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# colcon/CMake output
+build
+install
+log

@@ -24,7 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'motor_driver = rover_control.motor_driver:main',
-            'encoder_reader = rover_control.encoder_reader:main',
+            'encoder_publisher = rover_control.encoder_publisher:main',
             'velocity_controller = rover_control.velocity_controller:main',
         ],
     },

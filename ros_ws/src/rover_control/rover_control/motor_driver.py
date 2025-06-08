@@ -39,18 +39,18 @@ class MotorDriver(Node):
         # Create subscribers for left and right motor velocities
         self.left_vel_sub = self.create_subscription(
             Float32,
-            'left_motor_velocity',
+            'left_motor_pwm',
             self.left_motor_callback,
             10)
         self.right_vel_sub = self.create_subscription(
             Float32,
-            'right_motor_velocity',
+            'right_motor_pwm',
             self.right_motor_callback,
             10)
             
         self.get_logger().info('Motor driver node initialized')
     
-    def set_motor_velocity(self, pwm1, pwm2, velocity):
+    def set_motor_pwm(self, pwm1, pwm2, velocity):
         """
         Set motor velocity using PWM and direction pins.
         
@@ -83,7 +83,7 @@ class MotorDriver(Node):
         Args:
             msg (Float32): Velocity command (-1.0 to 1.0)
         """
-        self.set_motor_velocity(self.motor1_pwm1, self.motor1_pwm2, msg.data)
+        self.set_motor_pwm(self.motor1_pwm1, self.motor1_pwm2, msg.data)
     
     def right_motor_callback(self, msg):
         """
@@ -92,7 +92,7 @@ class MotorDriver(Node):
         Args:
             msg (Float32): Velocity command (-1.0 to 1.0)
         """
-        self.set_motor_velocity(self.motor2_pwm1, self.motor2_pwm2, msg.data)
+        self.set_motor_pwm(self.motor2_pwm1, self.motor2_pwm2, msg.data)
     
     def close(self):
         """Cleanup GPIO on node destruction."""

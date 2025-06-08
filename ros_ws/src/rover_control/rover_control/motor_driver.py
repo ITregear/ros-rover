@@ -73,8 +73,6 @@ class MotorDriver(Node):
             # Stop
             pwm1.ChangeDutyCycle(0)
             pwm2.ChangeDutyCycle(0)
-            
-        self.get_logger().info(f"Set motor velocity to {velocity} with duty cycle {duty_cycle}")
     
     def left_motor_callback(self, msg):
         """
